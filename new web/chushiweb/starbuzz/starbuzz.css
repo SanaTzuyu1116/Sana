@@ -34,7 +34,7 @@ body {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           10px;
+  /* margin:           10px; */
   font-size:        90%;
 }
 
@@ -75,3 +75,27 @@ display: table;
 border-spacing: 10px;
 }
 
+.drinks {
+    background-color: #efe5d0;
+    padding: 15px;
+}
+
+.header2 {
+float: right;
+min-width: auto;
+}
+
+.sprite-container {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('img_navsprites.gif');
+}
+
+.header-logo {
+	background-position: 0px 0px;
+}
+
+.header-slogan {
+	background-position: -400px 0px;
+}
