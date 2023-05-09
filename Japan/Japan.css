@@ -9,6 +9,52 @@ background-color: #f2e9e1;
 float: left;
 }
 
+.box1 {
+border: #a67c52;
+}
+
+.left {
+float: left;
+}
+
+ul,li{
+list-style:none;
+}
 
 
+footer {
+    line-height: 1.5;
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+}
+html {
+font-size: 62.5%;
+}
 
+footer nav ul li {
+    font-size: 1.4rem;
+    color: #594A42;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+.border-left {
+border-left: #a67c52;
+border-width: 2px;
+border-style: dotted;
+border-top: 0;border-right: 0;border-bottom: 0;
+}
+
+.box1 {
+border-color: #a67c52;
+}
+.picture {
+position: relative;
+top: 0px;
+left: 500px;
+}
+
+.gif {
+    transition: 0.3s;
+    text-decoration: underline;
+}
