@@ -13,9 +13,7 @@ float: left;
 border: #a67c52;
 }
 
-.left {
-float: left;
-}
+
 
 ul,li{
 list-style:none;
@@ -38,7 +36,7 @@ footer nav ul li {
     font-weight: 500;
 }
 
-.border-left {
+.right {
 border-left: #a67c52;
 border-width: 2px;
 border-style: dotted;
@@ -47,7 +45,19 @@ border-top: 0;border-right: 0;border-bottom: 0;
 
 .box1 {
 border-color: #a67c52;
+border-width: 1px;
+border-style: solid;
+width: 387px;
+height: 387px;
 }
+.box2 {
+border-color: #a67c52;
+border-width: 1px;
+border-style: solid;
+width: 387px;
+height: 387px;
+}
+
 .picture {
 position: relative;
 top: -350px;
@@ -55,8 +65,8 @@ left: 850px;
 }
 
 .gif {
-    transition: 0.3s;
-    text-decoration: underline;
+transition: 0.3s;
+text-decoration: underline;
 }
 
 nav ul li{
@@ -66,3 +76,49 @@ padding: 5px 0px 5px 0px;
 display: inline;
 padding: 5px 10px 5px 10px;
 }
+
+.link {
+background-color: #BE966B;
+text-align: center;
+font-size: 1.4rem;
+color:#FFFFFF;
+line-height: 2em;
+letter-spacing: 0em;
+width: 100%;
+}
+.link li {
+color: white;}
+
+.footer2 {
+width: 100%;
+background-color: #947B62;
+text-align: center;
+padding-top: 6%;
+padding-bottom: 6%;
+display: block;
+}
+
+.link li a {
+color: #FFF;
+text-decoration: none;
+}
+
+html, body, div, span,a, ul, li,tr, th, td 
+{
+margin: 0;
+}
+
+.footer2 {
+color: #FFF;
+}
+
+.footer2 img {
+width: 127px;
+padding-bottom: 2%;
+}
+
+nav ul li{
+margin-left: 50px;
+margin-right: 50px;
+}
+
