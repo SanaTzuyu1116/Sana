@@ -47,15 +47,15 @@ border-top: 0;border-right: 0;border-bottom: 0;
 border-color: #a67c52;
 border-width: 1px;
 border-style: solid;
-width: 387px;
-height: 387px;
+width: 235px;
+height: 235px;
 }
 .box2 {
 border-color: #a67c52;
 border-width: 1px;
 border-style: solid;
-width: 387px;
-height: 387px;
+width: 235px;
+height: 235px;
 }
 
 .picture {
@@ -122,3 +122,14 @@ margin-left: 50px;
 margin-right: 50px;
 }
 
+
+
+html {
+width: auto;
+height: 943.28px;
+}
+
+.right {
+    float: right;
+    width: 80%;
+}
