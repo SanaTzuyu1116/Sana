@@ -1,0 +1,361 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: #a67c52;
+}
+
+header { 
+  position: relative; 
+  display: block; 
+}
+
+img {
+  max-width: 70%;
+  height: 55px;
+}
+
+header .header1 { 
+  /* padding: 12px 2% 0;  */
+  width: 100%; 
+  margin-right: auto; 
+  margin-left: auto; 
+  position: relative; 
+}
+
+header .header1 h1 { 
+  width: 11.7%; 
+  margin-bottom: 10px; 
+  float: left; 
+  position: relative;
+  left: 10em;
+}
+
+header .header1 h1 img { 
+  width: 100%; 
+}
+
+.header1::after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+nav.header-nav { 
+  width: 80%; 
+  z-index: 100; 
+  display: block; 
+  padding-right: 195px; 
+  box-sizing: border-box; 
+  position: absolute; 
+  bottom: 15px; 
+  right: 16.5em; 
+}
+
+.header-navf {
+  width: 100%;
+}
+
+.header-navf::after {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.header2 {
+  zoom: 1; 
+  list-style-type: none; 
+  width: auto; 
+  margin: 0px; 
+  position: absolute; 
+  right: 16em; 
+  padding: 10px; 
+  top: initial; 
+  bottom: 60%; 
+}
+
+.header2:before, .header2:after { 
+  content: ""; 
+  display: table; 
+}
+
+.header2:after { 
+  clear: both; 
+}
+
+.header2 li { 
+  position: relative; 
+  width: 70%; 
+  padding: 0; 
+  text-align: center; 
+  margin-top: 0; 
+  margin-right: auto; 
+  margin-bottom: 0; 
+  margin-left: auto; 
+}
+
+.header2 li::before { 
+  position: absolute; 
+  content: ""; 
+  top: 50%; 
+  left: 0px; 
+  margin-top: -5px; 
+  display: block; 
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent; 
+  border-right: 5px solid transparent; 
+  border-bottom: 5px solid transparent; 
+  border-left: 5px solid #8A5E3C; 
+}
+
+.header2 li a { 
+  display: block; 
+  color: #8A5E3C; 
+  font-size: 14px; 
+  line-height: 1; 
+  text-decoration: none; 
+  margin-top: 15px; 
+  margin-right: 0; 
+  margin-bottom: 0; 
+  margin-left: 0; 
+  padding-top: 5px; 
+  padding-right: 0; 
+  padding-bottom: 5px; 
+  padding-left: 0; 
+}
+
+.header2 li ul { 
+  list-style: none; 
+  position: absolute; 
+  z-index: 9999; 
+  top: 100%; 
+  left: -15px; 
+  margin: 0; 
+  padding: 5%; 
+  background-color: #FFFFFF; 
+  width: 100px; 
+  box-sizing: border-box;
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 8px gray; 
+  -webkit-box-shadow: 0 0 8px gray; 
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#272229', Direction=135, Strength=3); 
+  box-shadow: 0 0 8px gray; 
+  }
+
+.header2 li ul:after { 
+  content: "\25B8"; 
+  display: block; 
+  font-size: 2em; 
+  height: 0; 
+  line-height: 0; 
+  position: absolute; 
+  color: #fff; 
+  top: -3px; 
+  left: 1px; 
+  text-align: center; 
+  width: 100%; 
+  text-shadow: 3px 0 2px #ccc; 
+  transform:rotate(28deg)
+}
+
+.header2 li ul li { 
+  width: 100%; 
+}
+
+.header2 li ul li::before { 
+  position: absolute; 
+  content: ""; 
+  top: 0%; 
+  left: 0px; 
+  margin-top: 0px; 
+  display: block; 
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent; 
+  border-right: 5px solid transparent; 
+  border-bottom: 5px solid transparent; 
+  border-left: 5px solid transparent; 
+}
+
+.header2 li ul li a { 
+  text-align: center; 
+  padding-top: 5px; 
+  padding-right: 0px; 
+  padding-bottom: 5px; 
+  padding-left: 0px; 
+  width: 80%; 
+  margin-top: 0px; 
+  margin-right: auto; 
+  margin-bottom: 0px; 
+  margin-left: auto; 
+}
+
+.header2 > li > a { 
+  white-space: nowrap; 
+  padding-left: 0.75em; 
+}
+
+.header2 li ul li a:hover { 
+  background: #F0F1F1; 
+}
+
+.header2 li ul {
+  opacity: 0;
+  top: 50%;
+  visibility: hidden;
+  transition: .5s;
+}
+
+.header2 li:hover ul, .header2 li.active ul {
+  top: 130%;
+  visibility: visible;
+  opacity: 1;
+}
+
+.header2 li:hover ul { 
+  visibility: visible; 
+}
+
+/* .header2 li:active ul { 
+  visibility: visible; 
+} */
+
+
+.header2 > li { 
+  width: 100%; 
+} 
+
+.header-nav { 
+  width: 100%; 
+}
+
+ul .header-menu { 
+  list-style-type: none; 
+  padding-top: 1.5%; 
+}
+
+ul.header-menu li { 
+  float: right; 
+  margin-right: 2%; 
+  position: relative; 
+  margin-top: 3px; 
+}
+
+ul.header-menu li a { 
+  color: #8A5E3C; 
+  font-size: 1.6rem; 
+  display: block; 
+  padding-left: 10px; 
+}
+
+ul.header-menu li::before { 
+  position: absolute; 
+  content: ""; 
+  top: 50%; 
+  left: 0px; 
+  margin-top: -5px; 
+  display: block; 
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent; 
+  border-right: 5px solid transparent; 
+  border-bottom: 5px solid transparent; 
+  border-left: 5px solid #8A5E3C; 
+}
+
+
+
+.head-hyy {
+  padding: 40px;
+  background: #efefef;
+}
+
+.head-hyy ul {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.head-hyy ul a {
+  position: relative;
+  display: block;
+  padding-left: 17px;
+  margin: 0 auto;
+  padding: 20px 30px 20px 20px;
+  text-decoration: none;
+  text-align: center;
+  background: #FFF;
+  color: #96301D;
+  font-weight: bold;
+  box-shadow: 0px 1px 0px 1px #e4e4e4;
+  border-radius: 4px;
+  letter-spacing: 0.1em;
+}
+
+.head-hyy ul a::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: solid 6px transparent;
+  border-right: solid 6px transparent;
+  border-bottom: solid 6px transparent;
+  border-left: solid 6px #96301D;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  margin-top: -6px;
+}
+
+ul {
+  list-style: none;
+}
+
+.sp {
+  display: none;
+}
+
+.searchfield { 
+  position: absolute; 
+  right: 0px; 
+  padding: 5px;  
+  font-size: 14px; 
+  width: 180px; 
+  border: 1px solid #ededed; 
+  border-radius: 15px;
+}
+
+.searchsubmit { 
+  position: absolute; 
+  bottom: 1px; 
+  width: 35px; 
+  height: 30px; 
+  padding: 0; 
+  font-family: FontAwesome; 
+  font-size: 18px; 
+  border: none; 
+  background: transparent; 
+  cursor: pointer; 
+  margin-left: -38px; 
+  margin-top: -5px; 
+  color: #ddd; 
+}
+
+.searchsubmit:hover { 
+  text-decoration: none; 
+}

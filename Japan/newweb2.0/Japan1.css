@@ -1,0 +1,191 @@
+a {
+  text-decoration: none;
+  color: #a67c52;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+footer { 
+width: 100%; 
+background-color: #F2E9E1;
+}
+
+footer .inner { 
+  padding-top: 3%; 
+  padding-bottom: 3%; 
+  width: 1080px; 
+  margin-right: auto; 
+  margin-left: auto; 
+}
+
+footer nav { 
+float: left; 
+width: 50%; 
+display: block;
+}
+
+footer nav ul {
+  float: left; 
+  width: 50%; 
+  box-sizing: border-box; 
+  padding-right: 0%;
+}
+
+footer nav ul:nth-child(2) { 
+  border-left-width: 2px; 
+  border-left-style: dotted; 
+  border-left-color: #C3996C;
+  padding-left: 5%; 
+}
+
+footer nav ul li { 
+  font-size: 1.4rem;
+  color: #594A42; 
+  line-height: 2em; 
+  font-weight: 500; 
+  }
+
+.sns_b { 
+  float: left; 
+  width: 22%; 
+}
+
+.twitter_b, .facebook_b { 
+  float: left; 
+  width: 100%; 
+  margin-left: 3%;
+  overflow: hidden; 
+  border: 1px solid #C3996C; 
+  box-sizing: border-box; 
+  margin-bottom: 3%; 
+}
+
+.twitter_b .wrapper_tw, .facebook_b .wrapper {
+  position: relative;
+    width: 100%;
+}
+
+.twitter_b .wrapper_tw:before, .facebook_b .wrapper:before {
+  content: ""; 
+  display: block; 
+  padding-top: 100%; 
+}
+
+.twitter_b .wrapper_tw .content_tw, .facebook_b .wrapper .content { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+}
+
+.banner_b { 
+  float: left;
+  width: 22%; 
+  margin-left: 3%;
+}
+
+.banner_b .banner_c { 
+  padding-bottom: 2%; 
+}
+
+.banner_b .footer_banners li {
+  padding-bottom: 2%;
+}
+
+.link_b { 
+  /* background-color: #BE966B; */
+  text-align: center;
+  font-size: 1.4rem;
+  color: #FFFFFF;
+  line-height: 2em;
+  letter-spacing: 0em;
+  width: 100%;
+}
+
+.link_b ul { 
+  list-style-type: none; 
+  display: table; 
+  text-align: center; 
+  width: 100%; 
+  margin-right: auto; 
+  margin-left: auto; 
+  background-color: #BE966B;
+}
+
+.link_b li { 
+  display: table-cell; 
+}
+
+.link_b li a { 
+  color: #FFF; 
+  text-decoration: none; 
+}
+
+.link_b li a:hover { 
+  text-decoration: underline; 
+}
+
+.foot_b { 
+  width: 100%; 
+  background-color: #947B62; 
+  text-align: center; 
+  padding-top: 6%; 
+  padding-bottom: 6%; 
+  display: block; 
+}
+
+.foot_b img { 
+  width: 127px; 
+  padding-bottom: 2%; 
+}
+
+.foot_b p.copyright { 
+  text-align: center; 
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif; 
+  font-size: 1.4rem; 
+  font-weight: 500; 
+  color: #FFFFFF; 
+}
+
+.foot_b p.foot-address { 
+  color: #FFF; 
+  margin-bottom: 20px; 
+  margin-top: -20px; 
+}
+
+.page_top { 
+  position: fixed; 
+  bottom: 15px; 
+  right: 15px; 
+  width: 60px; height: auto; 
+}
+
+.page_top img { 
+  width: 100%; 
+  height: auto; 
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+    font-size: 62.5%;
+}
+

@@ -1,0 +1,136 @@
+body {
+  line-height: 1.5;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;/*设置字间距 */
+  word-wrap: break-word;
+}
+.twopart-table img {
+  max-width: 100%;
+  height: auto;
+}
+.twopart-table li {
+  display: inline;
+  width: 48%;
+  margin: 0 0 25px 0;
+  padding: 0 1%;
+  text-align: center;  
+}
+.twopart-table li img {
+  margin: 6.7px;
+}
+.twopart-table {
+  text-align: center;}
+.threepart {
+  font-family:"Heivetica",Helvetica,"Hiragino Sans","Hirgino Kaku Gothic ProN",Arial,"Yu Gothic",Meiryo,sans-serif ;
+  /* 设置字体 */
+}
+.threepart h2 {
+  font-size: 2.8rem;
+  color: #58595B;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1.3em;
+  font-weight: 500;
+  /* margin: 0; */
+}
+.threepart span {
+  font-size: 1.4rem;
+  color: #cccccc;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.table {
+  word-wrap: break-word;
+  width: 1080px;
+  margin-left: 15%;
+}
+a {
+  text-decoration: none;
+  /* 把超链接的样式设置为无 */
+}
+a:link .words-one,.words-two { 
+  color: white;
+}
+a:visited .words-one,.words-two {
+  color: white;
+}
+a:hover .words {
+  text-decoration: underline;
+  text-decoration-color: #a67c52;
+}
+.qudiaodian,.twopart-table {
+  list-style: none;
+  /* 把无序列表的点去掉 */
+}
+
+.time {
+  color: #ba584f;
+  font-size: 1.2rem;
+  float: left;
+  padding: 0.5% 2% 0.5% 2%;
+  margin-right: 2%;
+}
+.words-one {
+  font-size: 1.2rem;
+  padding: 0.5% 2% 0.5% 2%;
+  margin-right: 2%;
+  float: left;
+}
+.words-two {
+  font-size: 1.2rem;
+  padding: 0.5% 2% 0.5% 2%;
+  margin-right: 2%;
+  float: left;
+}
+.words {
+  color: #a67c52;
+  width: 100%;
+  font-size: 1.4rem;
+  clear: left;
+  padding-left: 2%;
+  padding-top: 1.5%;
+  /* float: left; */
+  box-sizing: border-box;
+}
+.words-one {
+  background-color: #ba584f;
+}
+.words-two {
+  background-color: #a67c52;
+}
+
+.xhx {
+  width: 100%;
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid #cccccc;
+}
+.threepart .table .qudiaodian .xhx a::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-top: solid 2px black;
+  border-right: solid 2px black;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10%;
+  right:20%;
+  margin-top: -6px;
+  }
+.xfooter {
+  float: right;
+  background-color: #a67c52;
+  padding: 0.5em 2em;
+}
+.xfooter a:link {
+  color: white;
+}
+.xfooter a:visited {
+  color: white;
+}
+.xfooter a:hover {
+  text-decoration: underline;
+  text-decoration-color: #a67c52;
+}
